@@ -9,7 +9,7 @@ class Produto{
         this.preco=parseFloat(preco);
         this.quantidade=parseInt(quantidade);
     }
-    //método que calcula o subtotal
+    //Método que calcula o subtotal
     calcularSubtotal(){
         return this.preco*this.quantidade;
     }
